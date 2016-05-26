@@ -4,7 +4,9 @@ var maxAantal = 950;
 
 for (beginGetal; beginGetal <= maxAantal;) {
     beginGetal *= keerGetal; 
-  if (beginGetal > maxAantal) {
+  if (beginGetal >= maxAantal) {
     console.log('950 is behaald');
   }
 }
+
+
